@@ -1,0 +1,11 @@
+body {
+  background-color: #e3f2fd; /* Azul claro moderno */
+}
+section,
+article,
+footer {
+  margin-bottom: 80px; /* Aumenta o espaçamento entre seções */
+}
+.card {
+  margin-bottom: 30px; /* Espaço extra entre os cards */
+}
