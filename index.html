@@ -37,7 +37,7 @@
         </div>    
         <div class="row mt-4">
             <div class="col-md-6 d-flex align-items-center">
-                <p class="lead">Este projeto tem como objetivo a construção de um carrinho seguidor de linha, utilizando um sensor de linha para detectar a trajetória e um motor para comandar o movimento do veículo. O controle é realizado através de um microcontrolador Arduino, no qual o sensor e o motor são programados utilizando a IDE do Arduino. O projeto integra conceitos de automação e controle, sendo parte integrante da disciplina do Projeto Integrado do curso de Análise e Desenvolvimento de Sistemas, sob orientação do professor Eduardo.</p>
+                <p class="lead">Este projeto tem como objetivo a construção de um carrinho seguidor de linha, utilizando um sensor de linha para detectar a trajetória e um motor para comandar o movimento do veículo. O controle é realizado através de um microcontrolador Arduino, no qual o sensor e o motor são programados utilizando a IDE do Arduino. O projeto integra conceitos de automação e controle, sendo parte integrante da disciplina do Projeto Integrado do curso de Análise e Desenvolvimento de Sistemas, sob orientação do professor Eduardo Furlan.</p>
             </div>
             <div class="col-md-6">
                 <img src="src/img/robo-seguidor-de-linha-com-arduino-projeto-maker-1920x1080.jpg" class="img-fluid rounded shadow" alt="Arduino">
@@ -46,49 +46,105 @@
     </article>
 
     <!-- Especificações -->
-    <section id="Especificacoes" class="container mt-5">
-        <div class="text-center mb-4">
-            <h1 class="fw-bold">Especificações</h1>
-        </div>
-      
-        <div class="row justify-content-center">
-            <div class="col-md-3">
-                <div class="card shadow-sm">
-                    <img src="src/img/placa-Arduino.png" class="card-img-top" alt="Placa Arduino">
-                    <div class="card-body">
-                        <p class="card-text text-center">Arduino Uno R3 (ou similar) com microcontrolador ATmega328P.</p>
-                    </div>
-                </div>
-            </div>
-      
-            <div class="col-md-3">
-                <div class="card shadow-sm">
-                    <img src="src/img/senor-arduino.webp" class="card-img-top" alt="Sensor Arduino">
-                    <div class="card-body">
-                        <p class="card-text text-center">2 sensores infravermelhos para detectar a linha.</p>
-                    </div>
-                </div>
-            </div>
+<section id="Especificacoes" class="container mt-5">
+    <div class="text-center mb-3">
+        <h1 class="fw-bold">Especificações</h1>
+    </div>
 
-            <div class="col-md-3">
-                <div class="card shadow-sm">
-                    <img src="src/img/bateria.jpeg" class="card-img-top" alt="Bateria">
-                    <div class="card-body">
-                        <p class="card-text text-center">Bateria de 9V para alimentar o Arduino e os sensores.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="card shadow-sm">
-                    <img src="src/img/modelo-estrutura.jpg" class="card-img-top" alt="Estrutura">
-                    <div class="card-body">
-                        <p class="card-text text-center">Estrutura do carrinho feita com MDF para maior resistência.</p>
-                    </div>
+    <div class="row justify-content-center">
+        <!-- Card 1 -->
+        <div class="col-md-4 mb-4 d-flex">
+            <div class="card shadow-sm h-100 d-flex flex-column">
+                <img src="src/img/placa-Arduino.png" class="card-img-top" alt="Placa Arduino">
+                <div class="card-body d-flex flex-column justify-content-center">
+                    <p class="card-text text-center">Arduino Uno R3 (ou similar) com microcontrolador ATmega328P.</p>
                 </div>
             </div>
         </div>
-    </section>
+
+        <!-- Card 2 -->
+        <div class="col-md-4 mb-4 d-flex">
+            <div class="card shadow-sm h-100 d-flex flex-column">
+                <img src="src/img/Ponte H Dupla L298N.png" class="card-img-top" alt="Ponte H">
+                <div class="card-body d-flex flex-column justify-content-center">
+                    <p class="card-text text-center">Ponte H Dupla L298N para controle dos motores.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4 mb-4 d-flex">
+            <div class="card shadow-sm h-100 d-flex flex-column">
+                <img src="src/img/modelo-estrutura.png" class="card-img-top" alt="Bateria">
+                <div class="card-body d-flex flex-column justify-content-center">
+                    <p class="card-text text-center">Kit Chassi 2WD (2 rodas) Robô para Arduino.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-4 mb-4 d-flex">
+            <div class="card shadow-sm h-100 d-flex flex-column">
+                <img src="src/img/Adaptador Bateria 9v com Plug.png" class="card-img-top" alt="Motor">
+                <div class="card-body d-flex flex-column justify-content-center">
+                    <p class="card-text text-center">Adaptador Bateria 9V para Arduino.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-md-4 mb-4 d-flex">
+            <div class="card shadow-sm h-100 d-flex flex-column">
+                <img src="src/img/senor-arduino.png" class="card-img-top" alt="Estrutura">
+                <div class="card-body d-flex flex-column justify-content-center">
+                    <p class="card-text text-center">Sensor de Obstáculos Reflexivo Infravermelho.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col-md-4 mb-4 d-flex">
+            <div class="card shadow-sm h-100 d-flex flex-column">
+                <img src="src/img/Jumpers - Macho.png" class="card-img-top" alt="Jumpers Macho">
+                <div class="card-body d-flex flex-column justify-content-center">
+                    <p class="card-text text-center">Jumpers – Macho/Macho.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="col-md-4 mb-4 d-flex">
+            <div class="card shadow-sm h-100 d-flex flex-column">
+                <img src="src/img/Jumpers - MachoFemea.png" class="card-img-top" alt="Jumpers Macho/Femea">
+                <div class="card-body d-flex flex-column justify-content-center">
+                    <p class="card-text text-center">Jumpers – Macho/Fêmea.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="col-md-4 mb-4 d-flex">
+            <div class="card shadow-sm h-100 d-flex flex-column">
+                <img src="src/img/bateria.jpeg" class="card-img-top" alt="Bateria 9V">
+                <div class="card-body d-flex flex-column justify-content-center">
+                    <p class="card-text text-center">Bateria 9V.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 9 -->
+        <div class="col-md-4 mb-4 d-flex">
+            <div class="card shadow-sm h-100 d-flex flex-column">
+                <img src="src/img/Pilhas AA.png" class="card-img-top" alt="Pilhas AA">
+                <div class="card-body d-flex flex-column justify-content-center">
+                    <p class="card-text text-center">Pilhas AA.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
 
     <footer id="Equipe" class="container py-5 text-center bg-dark text-white rounded">
       <h2 class="fw-bold mb-4">Equipe</h2>
@@ -164,7 +220,7 @@
   
       </div>
   
-      <p class="mt-4">Professor orientador: <strong>Eduardo</strong></p>
+      <p class="mt-4">Professor orientador: <strong>Eduardo Furlan</strong></p>
   </footer>
   
   
